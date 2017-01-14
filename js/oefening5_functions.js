@@ -1,15 +1,15 @@
 
 
-// var msg = 'say hello to your new friends';
-//
-// function updateMSG (){
-//
-// var el = document.getElementById('test');
-// el.textContent = msg;
-//
-// }
-//
-// updateMSG();
+var msg = 'say hello to your new friends';
+
+function updateMSG (){
+
+var el = document.getElementById('test');
+el.textContent = msg;
+
+}
+
+updateMSG();
 
 var dag = new Date(); //datum ophalen
 var uur = today.getHours(); // uur ophalen
