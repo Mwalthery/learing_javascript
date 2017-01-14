@@ -1,31 +1,39 @@
-// var dag = new Date();
-// var uur = today.getHours();
-// var greeting;
+
+
+// var msg = 'say hello to your new friends';
 //
-// if (uur > 12){
+// function updateMSG (){
 //
-// greeting = 'hello';
+// var el = document.getElementById('test');
+// el.textContent = msg;
 //
 // }
 //
-// else if (uur > 18) {
-//   greeting = 'hey';
-//   }
-//
-//   else if (uur > 0) {
-//     greeting = 'hoi';
-//   }
-//
-//   else{
-//
-// greeting = 'bye';
-//
-//   }
+// updateMSG();
 
-var dag = new Date();
-var uur = today.getDate();
+var dag = new Date(); //datum ophalen
+var uur = today.getHours(); // uur ophalen
+var greeting;
 
-function datum (dag, uur){
-el.getElementById("Test");
-  el.textContent( dag );
+function Hello() {
+    // nieuwe funtie Hello
+
+    if (uur > 12) {
+        //later dan 12 uur s'middags
+        greeting = 'Goeie middag';
+        //later dan 18 s' avonds
+    } else if (uur > 18) {
+        greeting = 'Goeie avond';
+    } else if (uur > 0) {
+        // later dan 24 uur s' nachts
+        greeting = 'Goeie morgen';
+    } else {
+        // als er geen uur kan worden gevonden plaats welkom
+        greeting = 'Welkom';
+
+    }
+    var el = document.getElementById('hello'); //id is hello
+    el.textContent = greeting; // toon message
+
 }
+Hello(); // calling function Hello
