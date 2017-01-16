@@ -11,10 +11,10 @@ return this.rooms - this.booked;
 
 }
 
-var quayHotel = new Hotel ('quay', 40, 25):
+var quayHotel = new Hotel ('quay', 40, 25);
 var parkHotel = new Hotel ('park', 20, 10);
 
-var details1 = quayHotel.name + ' rooms: ';
+var details1 = quayHotel.name + ' rooms ';
     details1 += quayHotel.checkBeschikbaarheid();
 
 var elHotel = document.getElementById('Hotel');

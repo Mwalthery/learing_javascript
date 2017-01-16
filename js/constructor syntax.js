@@ -8,8 +8,8 @@ hotel.checkBeschikbaarheid = function() {
 
   return this.rooms - this.booked;
 };
-var elName = document.getElementById('hotelnaam');
+var elName = document.getElementById('HotelQ');
 elName.textContent = hotel.name;
 
-var Elrooms = document.getElementById('rooms');
+var Elrooms = document.getElementById('roomsQ');
 Elrooms.textContent = hotel.checkBeschikbaarheid();

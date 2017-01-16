@@ -1,3 +1,4 @@
+
 function Hotel(name, rooms, booked) {
 this.name = "quay";
 this.rooms = 120;
